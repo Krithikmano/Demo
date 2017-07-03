@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="SeleniumScript.CarmaxTest">
+        <methods>
+          <include name="carmaxhome"/>
+        </methods>
+      </class> <!-- SeleniumScript.CarmaxTest -->
+      <class name="SeleniumScript.FramehandleTest">
+        <methods>
+          <include name="frame"/>
+        </methods>
+      </class> <!-- SeleniumScript.FramehandleTest -->
+      <class name="SeleniumScript.amazonTest">
+        <methods>
+          <include name="amazon"/>
+        </methods>
+      </class> <!-- SeleniumScript.amazonTest -->
+      <class name="SeleniumScript.DropdownTest">
+        <methods>
+          <include name="dropdown"/>
+        </methods>
+      </class> <!-- SeleniumScript.DropdownTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

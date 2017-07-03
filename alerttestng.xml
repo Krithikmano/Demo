@@ -6,7 +6,7 @@
 </listeners> -->
   <test name="Test">
     <classes>
-      <class name="SeleniumScript.AlertTestlogger"/>
+      <class name="SeleniumScript.AlertTestlogger1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
